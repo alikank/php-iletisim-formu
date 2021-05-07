@@ -69,6 +69,7 @@ header("Refresh:3; url=okundu.php");
  <?php
 }else {
 	header("location:index.php");
+ exit();
 }
 ?>
 
