@@ -82,5 +82,6 @@ header("Refresh:3; url=anasayfa.php");
 <?php
 }else {
 	header("location:index.php");
+       exit();
 }
 ?>
